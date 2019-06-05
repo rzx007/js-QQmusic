@@ -3,7 +3,7 @@ $(function () {
 	var indexHasAjax = false;
 	var hotHasAjax = false;
 	//适配主流移动端表现
-	if (window.devicePixelRatio == 2 || window.devicePixelRatio == 3) {
+	if (2 <= window.devicePixelRatio <= 3) {
 		$('html').css({
 			"font-size": "10px"
 		});
